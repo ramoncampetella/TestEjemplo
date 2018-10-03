@@ -1,0 +1,9 @@
+C:\Users\rcampetella\Documents\Trabajo\Pruebas Concepto\TestEjemplo\TestEjemplo.Api\bin\Debug\netstandard2.0\TestEjemplo.Api.deps.json
+C:\Users\rcampetella\Documents\Trabajo\Pruebas Concepto\TestEjemplo\TestEjemplo.Api\bin\Debug\netstandard2.0\TestEjemplo.Api.dll
+C:\Users\rcampetella\Documents\Trabajo\Pruebas Concepto\TestEjemplo\TestEjemplo.Api\bin\Debug\netstandard2.0\TestEjemplo.Api.pdb
+C:\Users\rcampetella\Documents\Trabajo\Pruebas Concepto\TestEjemplo\TestEjemplo.Api\obj\Debug\netstandard2.0\TestEjemplo.Api.csprojAssemblyReference.cache
+C:\Users\rcampetella\Documents\Trabajo\Pruebas Concepto\TestEjemplo\TestEjemplo.Api\obj\Debug\netstandard2.0\TestEjemplo.Api.csproj.CoreCompileInputs.cache
+C:\Users\rcampetella\Documents\Trabajo\Pruebas Concepto\TestEjemplo\TestEjemplo.Api\obj\Debug\netstandard2.0\TestEjemplo.Api.AssemblyInfoInputs.cache
+C:\Users\rcampetella\Documents\Trabajo\Pruebas Concepto\TestEjemplo\TestEjemplo.Api\obj\Debug\netstandard2.0\TestEjemplo.Api.AssemblyInfo.cs
+C:\Users\rcampetella\Documents\Trabajo\Pruebas Concepto\TestEjemplo\TestEjemplo.Api\obj\Debug\netstandard2.0\TestEjemplo.Api.dll
+C:\Users\rcampetella\Documents\Trabajo\Pruebas Concepto\TestEjemplo\TestEjemplo.Api\obj\Debug\netstandard2.0\TestEjemplo.Api.pdb
