@@ -73,6 +73,8 @@
     <Compile Include="Helpers\Targets.cs" />
     <Compile Include="Helpers\UrlHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seteo\BeforeAllTests.cs" />
+    <Compile Include="Seteo\SeleniumContext.cs" />
     <Compile Include="Steps\HomeDiarioSteps.cs" />
     <Compile Include="UnitTests\CheckURLTest.cs" />
     <Compile Include="UnitTests\SeleniumJSConsoleTest.cs" />

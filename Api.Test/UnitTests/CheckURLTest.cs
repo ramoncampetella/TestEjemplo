@@ -13,7 +13,6 @@ namespace Api.Test.UnitTests
         [TestMethod]
         public void UrlCheckTest()
         {
-            bool result = true;
             var urlHelper = new UrlHelper();
 
             string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"urls.json");
@@ -22,7 +21,7 @@ namespace Api.Test.UnitTests
             urlHelper.TestUrlTargets(targets);
                 
 
-            Assert.IsTrue(result);
+            Assert.IsTrue(targets.UrlsError.Count == 0, "Hay una url que falla");
 
         }
 

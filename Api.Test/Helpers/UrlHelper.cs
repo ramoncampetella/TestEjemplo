@@ -30,8 +30,15 @@ namespace Api.Test.Helpers
                 HttpStatusCode result = default(HttpStatusCode);
                 try
                 {
-                    var request = HttpWebRequest.Create(url);
-                    request.Method = "HEAD";
+                    var request = (HttpWebRequest)HttpWebRequest.Create(url);
+                    //request.ContentType = "text/html";
+                    request.AllowAutoRedirect = false;
+                    request.Method = "GET";
+                    request.Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";
+                    request.Headers.Add("Upgrade-Insecure-Requests", "1");
+                    request.Headers.Add("Accept-Encoding", "gzip, deflate, sdch");
+                    request.UserAgent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36";
+
                     using (var response = request.GetResponse() as HttpWebResponse)
                     {
                         if (response != null)
@@ -52,3 +59,5 @@ namespace Api.Test.Helpers
         }
     }
 }
+
+

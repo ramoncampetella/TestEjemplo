@@ -23,7 +23,7 @@ namespace Api.Test.Helpers
             _chromeOptions.SetLoggingPreference(LogType.Browser, LogLevel.All);
 
             _driver = new ChromeDriver(_chromeOptions);
-            _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(30));
+           // _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(30));
            
 
             _driver.Manage().Window.Maximize();
@@ -37,13 +37,6 @@ namespace Api.Test.Helpers
         }
 
 
-        public void ThenVisualizoLaPortadaYVeoElLogoDelDiario_()
-        {
-            //bool existLogo = _wait.Until(ExpectedConditions.ElementExists(By.CssSelector(".banner-header-logo")));
-            bool existLogo = _driver.FindElement(By.CssSelector(".banner-header-logo")).Displayed;
-            _driver.Close();
-            _driver.Quit();
-        }
 
     }
 }
